@@ -19,7 +19,9 @@ class script(object):
 ✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]</b>"""
    
     SOURCE_TXT = """<b>🗒️ ɴᴏᴛᴇs :
+    
 ➠ ᴘʀᴏᴊᴇᴄᴛ ᴘʀᴏᴠᴇᴅᴇʀ : <a href=https://t.me/Tr_LinksZz>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
 ➠ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Discussion_tr_links>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 ➠ sᴏᴜʀᴄᴇ - ᴄʟɪᴄᴋ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ</b>"""
