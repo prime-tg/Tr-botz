@@ -51,6 +51,12 @@ async def pm_next_page(bot, query):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
 
     btn.insert(0, [InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥","https://t.me/Tr_LinksZz")])
+    btn.insert(0, [
+             InlineKeyboardButton(f"ɪɴꜰᴏ", callback_data="button1"),
+             InlineKeyboardButton(f"ᴍᴏᴠɪᴇ", callback_data="button2"),
+             InlineKeyboardButton(f"ꜱᴇʀɪᴇꜱ", callback_data="button3"),
+            InlineKeyboardButton(f"ᴛɪᴘs", callback_data="button4")
+    ])
     if 0 < offset <= 10: off_set = 0
     elif offset == 0: off_set = None
     else: off_set = offset - 10
@@ -125,6 +131,12 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}')] for file in files ]    
 
     btn.insert(0, [InlineKeyboardButton("❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥","https://t.me/Tr_LinksZz")])
+    btn.insert(0, [
+             InlineKeyboardButton(f"ɪɴꜰᴏ", callback_data="button1"),
+             InlineKeyboardButton(f"ᴍᴏᴠɪᴇ", callback_data="button2"),
+             InlineKeyboardButton(f"ꜱᴇʀɪᴇꜱ", callback_data="button3"),
+            InlineKeyboardButton(f"ᴛɪᴘs", callback_data="button4")
+    ])
     if offset != "":
         key = f"{message.id}"
         temp.PM_BUTTONS[key] = search
