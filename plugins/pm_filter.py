@@ -50,11 +50,12 @@ async def pm_next_page(bot, query):
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'pmfile#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
         
+       btn.insert(0, [InlineKeyboardButton("🥰𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz"")])
+
        btn.insert(0, [
              InlineKeyboardButton("Join Channel", url="https://t.me/Tr_LinksZz"),
-             InlineKeyboardButton("'ɪɴꜰᴏ", callback_data="reqinfo"),
-             InlineKeyboardButton("ᴍᴏᴠɪᴇ", callback_data="minfo"),
-             InlineKeyboardButton("ꜱᴇʀɪᴇꜱ", callback_data="sinfo")
+             InlineKeyboardButton("Button 1", callback_data="button1"),
+             InlineKeyboardButton("Button 2", callback_data="button2")
         ])
     if 0 < offset <= 10: off_set = 0
     elif offset == 0: off_set = None
@@ -129,11 +130,12 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'{pre}#{req}#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}')] for file in files ]    
 
-    btn.insert(0, [
+       btn.insert(0, [InlineKeyboardButton("🥰𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz"")])
+
+       btn.insert(0, [
              InlineKeyboardButton("Join Channel", url="https://t.me/Tr_LinksZz"),
-             InlineKeyboardButton("'ɪɴꜰᴏ", callback_data="reqinfo"),
-             InlineKeyboardButton("ᴍᴏᴠɪᴇ", callback_data="minfo"),
-             InlineKeyboardButton("ꜱᴇʀɪᴇꜱ", callback_data="sinfo")
+             InlineKeyboardButton("Button 1", callback_data="button1"),
+             InlineKeyboardButton("Button 2", callback_data="button2")
         ])
     if offset != "":
         key = f"{message.id}"
