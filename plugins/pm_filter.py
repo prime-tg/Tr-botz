@@ -50,13 +50,12 @@ async def pm_next_page(bot, query):
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'pmfile#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
         
-       btn.insert(0, [InlineKeyboardButton("🥰𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz"")])
-
-       btn.insert(0, [
-             InlineKeyboardButton("Join Channel", url="https://t.me/Tr_LinksZz"),
-             InlineKeyboardButton("Button 1", callback_data="button1"),
-             InlineKeyboardButton("Button 2", callback_data="button2")
-        ])
+       btn.insert(0, [InlineKeyboardButton("🥰 𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz")])
+ 
+       btn.insert(0, [InlineKeyboardButton("🥰 𝐔𝐩𝐝𝐚𝐭𝐞𝐝𝐞𝐬 🥰", url="https://t.me/Tr_LinksZz"),
+                     InlineKeyboardButton("👑 𝐀𝐝𝐦𝐢𝐧 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 👑", url="https://t.me/Tr_LinksZz_Admin_Chat_bot"),
+                     InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩 1", url="https://t.me/Discussion_tr_links"),
+                     InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩 2", url="https://t.me/+s5qcvtFL2rcwOWI9")])
     if 0 < offset <= 10: off_set = 0
     elif offset == 0: off_set = None
     else: off_set = offset - 10
@@ -130,13 +129,12 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'{pre}#{req}#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}')] for file in files ]    
 
-       btn.insert(0, [InlineKeyboardButton("🥰𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz"")])
-
-       btn.insert(0, [
-             InlineKeyboardButton("Join Channel", url="https://t.me/Tr_LinksZz"),
-             InlineKeyboardButton("Button 1", callback_data="button1"),
-             InlineKeyboardButton("Button 2", callback_data="button2")
-        ])
+       btn.insert(0, [InlineKeyboardButton("🥰 𝐉𝐨𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🥰", url="https://t.me/Tr_LinksZz")])
+ 
+       btn.insert(0, [InlineKeyboardButton("🥰 𝐔𝐩𝐝𝐚𝐭𝐞𝐝𝐞𝐬 🥰", url="https://t.me/Tr_LinksZz"),
+                     InlineKeyboardButton("👑 𝐀𝐝𝐦𝐢𝐧 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 👑", url="https://t.me/Tr_LinksZz_Admin_Chat_bot"),
+                     InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩 1", url="https://t.me/Discussion_tr_links"),
+                     InlineKeyboardButton("𝐆𝐫𝐨𝐮𝐩 2", url="https://t.me/+s5qcvtFL2rcwOWI9")])
     if offset != "":
         key = f"{message.id}"
         temp.PM_BUTTONS[key] = search
