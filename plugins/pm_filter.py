@@ -40,7 +40,7 @@ async def pm_next_page(bot, query):
     if SHORT_URL and SHORT_API:          
         if SINGLE_BUTTON:
             btn = [[InlineKeyboardButton(text=f"[{get_size(file.file_size)}] {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
-            btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")])
+          
         else:
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
@@ -48,11 +48,11 @@ async def pm_next_page(bot, query):
     else:        
         if SINGLE_BUTTON:
             btn = [[InlineKeyboardButton(text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
-            btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")])
+            
         else:
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'pmfile#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
-            btn.insert(0, [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")])
+            
 
     btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
     if 0 < offset <= 10: off_set = 0
@@ -130,10 +130,10 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
         else:
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'{pre}#{req}#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}')] for file in files ]
-            btn = [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")])
+            btn = [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")]
 
     btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
-    btn.insert(0, [InlineKeyboardButton("Join Channel", url="t.me/Tr_LinksZz")])
+    btn.insert(0, [InlineKeyboardButton("Join Channel", url="t.me/Tr_LinksZz")]
     if offset != "":
         key = f"{message.id}"
         temp.PM_BUTTONS[key] = search
