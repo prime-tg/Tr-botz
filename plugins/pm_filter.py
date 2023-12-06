@@ -133,7 +133,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             btn = [InlineKeyboardButton("🔗 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🔗", "howdl")]
 
     btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
-    btn.insert(0, [InlineKeyboardButton("Join Channel", url="t.me/Tr_LinksZz")]
+    btn.insert(0, [InlineKeyboardButton("Join Channel", url="t.me/Tr_LinksZz")])
     if offset != "":
         key = f"{message.id}"
         temp.PM_BUTTONS[key] = search
