@@ -55,6 +55,13 @@ async def pm_next_page(bot, query):
             
 
     btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
+    btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
+    btn.insert(2, [
+        InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
+        InlineKeyboardButton('📟 ᴍᴏᴠɪᴇ', callback_data='movie'),
+        InlineKeyboardButton('🍿 sᴇʀɪᴇs', callback_data='series'),
+        InlineKeyboardButton('🎁 ᴛɪᴘs', callback_data='tips')
+    ])
     if 0 < offset <= 10: off_set = 0
     elif offset == 0: off_set = None
     else: off_set = offset - 10
