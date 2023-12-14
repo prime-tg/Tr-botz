@@ -39,6 +39,22 @@ logger.setLevel(logging.ERROR)
 async def cb_handler(client: Client, query: CallbackQuery):
     if query.data == "close_data":
         await query.message.delete()
+
+    elif query.data == "💛❤️":
+        await query.answer(text=👋 ʜᴇʏ ғʀɪᴇɴᴅs 😻\n\n🎯 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛʜɪs ғɪʟᴇs ʏᴏᴜ ᴡᴀɴᴛ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n\n❤️‍🔥 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @Tr_LinksZz ❤️‍🔥, show_alert=True)
+
+    elif query.data == "info":
+        await query.answer(text=⚠️ 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 ⚠️\n\nᴀғᴛᴇʀ 5 ᴍɪɴᴜᴛᴇs ᴛʜɪs ᴍᴇssᴀɢᴇs ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ.\n\nɪғ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇs sᴇʀɪᴇs ғɪʟᴍ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ.\n\n❤️‍🔥 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @Tr_LinksZz ❤️‍🔥, show_alert=True)
+
+    elif query.data == "movie":
+        await query.answer(text=🎬 𝗠𝗼𝘃𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗙𝗼𝗿𝗺𝗮𝘁 🎬\n\n➠ ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ\n➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ\n➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ᴛʜɪs ɢʀᴏᴜᴘ.\n\nᴇxᴀᴍᴘʟᴇ : Varisu Tamil\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ':(!,./)\n\n❤️‍🔥 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @Tr_LinksZz ❤️‍🔥, show_alert=True)
+
+    elif query.data == "series":
+        await query.answer(text=🎬 𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗙𝗼𝗿𝗺𝗮𝘁 🎬\n\n➠ ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ\n➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ\n➠ ᴘᴀsᴛᴇ ᴛʜɪs ɢʀᴏᴜᴘ.\n\nᴇxᴀᴍᴘʟᴇ : Wednesday S01E01 Tamil \n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ':(!,./)\n\n❤️‍🔥 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @Tr_LinksZz ❤️‍🔥, show_alert=True)
+
+    elif query.data == "tips":
+        await query.answer(text=⭐ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗧𝗶𝗽𝘀 𝗙𝗼𝗿𝗺𝗮𝘁𝘀 ⭐\n\n★ ᴛʏᴘᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ (ɢᴏᴏɢʟᴇ).\n\n★ ɪғ ʏᴏᴜ ɴᴏᴛ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ ɪɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ᴛʜᴇ ɴᴇxᴛ sᴛᴇᴘ ɪs ᴄʟɪᴄᴋ ɴᴇxᴛ ʙᴜᴛᴛᴏɴ.\n\n★ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ.\n\n❤️‍🔥 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : @Tr_LinksZz ❤️‍🔥, show_alert=True)
+
         
     elif query.data == "delallconfirm":
         userid = query.from_user.id
