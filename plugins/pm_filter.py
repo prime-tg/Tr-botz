@@ -135,11 +135,12 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
     btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
     btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
     btn.insert(2, [
-        [InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
-         InlineKeyboardButton('📟 ᴍᴏᴠɪᴇ', callback_data='movie'),
-         InlineKeyboardButton('🍿 sᴇʀɪᴇs', callback_data='series'),
-         InlineKeyboardButton('🎁 ᴛɪᴘs', callback_data='tips')]
+        InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
+        InlineKeyboardButton('📟 ᴍᴏᴠɪᴇ', callback_data='movie'),
+        InlineKeyboardButton('🍿 sᴇʀɪᴇs', callback_data='series'),
+        InlineKeyboardButton('🎁 ᴛɪᴘs', callback_data='tips')
     ])
+
 
     if offset != "":
         key = f"{message.id}"
