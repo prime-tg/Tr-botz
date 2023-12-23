@@ -62,6 +62,7 @@ async def pm_next_page(bot, query):
         InlineKeyboardButton('🍿 sᴇʀɪᴇs', callback_data='series'),
         InlineKeyboardButton('🎁 ᴛɪᴘs', callback_data='tips')
     ])
+
     if 0 < offset <= 10: off_set = 0
     elif offset == 0: off_set = None
     else: off_set = offset - 10
