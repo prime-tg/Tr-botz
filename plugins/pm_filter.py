@@ -54,7 +54,7 @@ async def pm_next_page(bot, query):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'pmfile#{file.file_id}')] for file in files ]
             
 
-    btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
+    btn.insert(0, [InlineKeyboardButton(f"🎬 {search} 🎬", callback_data="🔍❤️")])
     btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
     btn.insert(2, [
         InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
@@ -142,7 +142,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}')] for file in files ]
             
 
-    btn.insert(0, [InlineKeyboardButton(f"🎥 {search} 🎬", callback_data="💛❤")])
+    btn.insert(0, [InlineKeyboardButton(f"🎬 {search} 🎬", callback_data="🔍❤️")])
     btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
     btn.insert(2, [
         InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
