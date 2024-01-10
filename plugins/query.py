@@ -479,7 +479,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('😇 𝖢𝗋𝖾𝖽𝗂𝗍𝗌 😇', callback_data='credits'),
             InlineKeyboardButton('𓃱 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾', callback_data='source')
         ],[
-            InlineKeyboardButton('𝖦𝗋𝗈𝗎𝗉 𝖱𝗎𝗅𝖾𝗌', callback_data='rules'),           
+            InlineKeyboardButton('🦞 𝖦𝗋𝗈𝗎𝗉 𝖱𝗎𝗅𝖾𝗌', callback_data='rules'),           
             InlineKeyboardButton('©️ 𝖣𝗂𝗌𝖼𝗅𝖺𝗂𝗆𝖾𝗋', callback_data='dics_btn')
         ],[
             InlineKeyboardButton('✘ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data'),
@@ -512,7 +512,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "rules":
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='about')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -544,16 +544,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='about')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="● ◌ ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ◌"
-        )
-        await query.message.edit_text(
-            text="● ● ●"
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
