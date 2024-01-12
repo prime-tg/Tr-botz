@@ -450,10 +450,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Tr_LinksZz")
             ],[      
-            InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+            InlineKeyboardButton("Hᴇʟᴩ 🕸️", "help"),
+            InlineKeyboardButton("Aʙᴏᴜᴛ ✨", "about")
             ],[
-            InlineKeyboardButton('♧︎︎︎ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 ♧︎︎︎', callback_data='suprt_info') 
+            InlineKeyboardButton('♧︎︎︎ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 ♧︎︎︎', 'suprt_info') 
             ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), START_MESSAGE.format(user=query.from_user.mention, bot=client.mention), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons)
             )
@@ -480,14 +480,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons= [[
-            InlineKeyboardButton('😇 𝖢𝗋𝖾𝖽𝗂𝗍𝗌 😇', callback_data='credits'),
-            InlineKeyboardButton('𓃱 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾', callback_data='source')
+            InlineKeyboardButton('😇 𝖢𝗋𝖾𝖽𝗂𝗍𝗌 😇', 'credits'),
+            InlineKeyboardButton('𓃱 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾', 'source')
         ],[
-            InlineKeyboardButton('🦞 𝖦𝗋𝗈𝗎𝗉 𝖱𝗎𝗅𝖾𝗌', callback_data='rules'),           
-            InlineKeyboardButton('©️ 𝖣𝗂𝗌𝖼𝗅𝖺𝗂𝗆𝖾𝗋', callback_data='dics_btn')
+            InlineKeyboardButton('🦞 𝖦𝗋𝗈𝗎𝗉 𝖱𝗎𝗅𝖾𝗌', 'rules'),           
+            InlineKeyboardButton('©️ 𝖣𝗂𝗌𝖼𝗅𝖺𝗂𝗆𝖾𝗋', 'dics_btn')
         ],[
-            InlineKeyboardButton('✘ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data'),
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='start')
+            InlineKeyboardButton('✘ 𝖢𝗅𝗈𝗌𝖾', 'close_data'),
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'start')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ABOUT_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
       
@@ -502,28 +502,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('𓅓 𝖬𝗈𝗏𝗂𝖾𝗌 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/Tr_Movies_Request_Factory'), 
              InlineKeyboardButton('🤖 𝖡𝗈𝗍 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Tr_LinksZz') 
          ],[ 
-             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='start')
+             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'start')
          ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.SUPRT_INFO_TXT.format(user=query.from_user.mention, bot=client.mention), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
        
     elif query.data == "rules":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='about')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'about')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.RULES_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
       
     elif query.data == "credits":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='about')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'about')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.CREDITS_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
       
     elif query.data == "dics_btn":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='about')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'about')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.DELF_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
       
@@ -634,8 +634,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help'),
-            InlineKeyboardButton('⟲ 𝖱𝖾𝖿𝗋𝖾𝗌𝗁', callback_data='rfrsh')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'help'),
+            InlineKeyboardButton('⟲ 𝖱𝖾𝖿𝗋𝖾𝗌𝗁', 'rfrsh')
         ]]
         total = await Media.count_documents()
         users = await db.total_users_count()
@@ -649,8 +649,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("⚡ Fetching MongoDb DataBase ⚡")
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help'),
-            InlineKeyboardButton('⟲ 𝖱𝖾𝖿𝗋𝖾𝗌𝗁', callback_data='rfrsh')
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'help'),
+            InlineKeyboardButton('⟲ 𝖱𝖾𝖿𝗋𝖾𝗌𝗁', 'rfrsh')
         ]]
         total = await Media.count_documents()
         users = await db.total_users_count()
