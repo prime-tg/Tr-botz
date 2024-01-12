@@ -239,7 +239,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.send_cached_media(chat_id=query.from_user.id, file_id=file_id, caption=f_caption, protect_content=True if ident == 'checksubp' else False)
 
     elif query.data == "removebg":
-        await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
             InlineKeyboardButton(text="𝖶𝗂𝗍𝗁 𝖶𝗁𝗂𝗍𝖾 𝖡𝖦", callback_data="rmbgwhite"),
             InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="rmbgplain"),
@@ -328,7 +327,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text("**Select Required Mode**", reply_markup=InlineKeyboardMarkup(buttons))
             
     elif query.data == "border":
-        await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
             InlineKeyboardButton(text="𝖱𝖾𝖽", callback_data="red"),
             InlineKeyboardButton(text="𝖦𝗋𝖾𝖾𝗇", callback_data="green"),
@@ -341,7 +339,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit("**Select Border**", reply_markup=InlineKeyboardMarkup(buttons))
    
     elif query.data == "photo":
-        await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
             InlineKeyboardButton(text="𝖡𝗋𝗂𝗀𝗍𝗁", callback_data="bright"),
             InlineKeyboardButton(text="𝖬𝗂𝗑𝖾𝖽", callback_data="mix"),
@@ -446,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except: await query.message.edit(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name))
 
     elif query.data == "start":
-        await query.answer('MSG_ALRT')
+        await query.answer(MSG_ALRT)
         buttons = [[
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
@@ -462,7 +459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
        
     elif query.data == "help":
-        await query.answer('MSG_ALRT')
+        await query.answer(MSG_ALRT)
         buttons = [[
             InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Pᴀɴᴇʟ ⚙️', 'admin')            
             ],[
@@ -481,7 +478,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.HELP_TXT.format(query.from_user.mention), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))     
 
     elif query.data == "about":
-        await query.answer('MSG_ALRT')
         buttons= [[
             InlineKeyboardButton('😇 𝖢𝗋𝖾𝖽𝗂𝗍𝗌 😇', callback_data='credits'),
             InlineKeyboardButton('𓃱 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾', callback_data='source')
