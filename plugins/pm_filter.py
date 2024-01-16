@@ -38,7 +38,6 @@ async def pm_next_page(bot, query):
     if not files: return
     
     if SHORT_URL and SHORT_API:          
-    if SHORT_URL and SHORT_API:          
         if SINGLE_BUTTON:
             btn = [[InlineKeyboardButton(text=f"🎬 [{get_size(file.file_size)}] {file.file_name}", url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}"))] for file in files ]
           
