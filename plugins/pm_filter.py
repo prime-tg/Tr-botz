@@ -73,7 +73,7 @@ async def pm_next_page(bot, query):
              InlineKeyboardButton(f"❄️ ᴩᴀɢᴇꜱ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages")]                                  
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(text="How to Download", url="https://t.me/how_Download_Tr/6")])
+        btn.append([InlineKeyboardButton(text="🔗 How to Download 🔗", url="https://t.me/how_Download_Tr/6")])
         btn.append(
             [InlineKeyboardButton(f"❄️ {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("ɴᴇxᴛ ➡️", callback_data=f"pmnext_{req}_{key}_{n_offset}")])
