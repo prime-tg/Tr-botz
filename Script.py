@@ -86,7 +86,7 @@ class script(object):
 ➪ /link › Rᴇᴘʟʏ Tᴏ Aɴʏ Mᴇᴅɪᴀ Tᴏ Gᴇᴛ Tʜᴇ Lɪɴᴋ 
 ➪ /batch › Tᴏ Cʀᴇᴀᴛᴇ Lɪɴᴋ Fᴏʀ Mᴜʟᴛɪᴘʟᴇ Mᴇᴅɪᴀ</b>"""
   
-    FILTER_TXT = """<b>Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨</b>"""
+    FILTER_TXT = """Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"""
     
     GLOBALFILTER_TXT = """<b>𝗛𝗲𝗹𝗽 𝗙𝗼𝗿 𝗚𝗹𝗼𝗯𝗮𝗹 𝗙𝗶𝗹𝘁𝗲𝗿𝘀
 
@@ -266,7 +266,7 @@ Tᴏᴛᴀʟ Dɪꜱᴋ: {}
 Uꜱᴇᴅ Dɪꜱᴋ: {} ({}%)
 Fʀᴇᴇ Dɪꜱᴋ: {}</b>"""
     
-    BUTTON_LOCK_TEXT = """<b>Hᴇʏ {query}\nTʜɪꜱ Iꜱ Nᴏᴛ Fᴏʀ Yᴏᴜ. Sᴇᴀʀᴄʜ Yᴏᴜʀ Sᴇʟꜰ</b>"""
+    BUTTON_LOCK_TEXT = """Hᴇʏ {query}\nTʜɪꜱ Iꜱ Nᴏᴛ Fᴏʀ Yᴏᴜ. Sᴇᴀʀᴄʜ Yᴏᴜʀ Sᴇʟꜰ"""
    
     FORCE_SUB_TEXT = """<b>sᴏʀʀʏ ғʀɪᴇɴᴅs ʏᴏᴜʀ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴍʏ ᴄʜᴀɴɴᴇʟ sᴏ ᴘʟᴇᴀsᴇᴅ ᴄʟɪᴄᴋᴋ ᴊᴏɪɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ</b>"""
    
