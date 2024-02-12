@@ -16,7 +16,7 @@ class script(object):
 ✯ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴘʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/download/releases/3.0/>ᴘʏᴛʜᴏɴ 3</a>
 ✯ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://www.mongodb.com/>ᴍᴏɴɢᴏ ᴅʙ</a>
-✯ ᴍʏ sᴇʀᴠᴇʀ : <a href=https://render.com/>ʀᴇɴᴅᴇʀ</a>
+✯ ᴍʏ sᴇʀᴠᴇʀ : <a href=https://koyeb.com/>ᴋᴏʏᴇʙ</a>
 ✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]</b>"""
    
     SOURCE_TXT = """<b>𝗡𝗼𝘁𝗲 :
