@@ -208,6 +208,12 @@ Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 ◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
 
 ◉ ʙʏ: @{f}</b>"""
+
+    CAPTION =  """<b>{file_name}
+    
+🔘 size - {file_size}
+
+❤️‍🔥 ᴊᴏɪɴ : @Tr_LinksZz ❤️‍🔥</b>"""
   
     LOG_TEXT_P = """<b>#ɴᴇᴡ_ᴜꜱᴇʀ
     
