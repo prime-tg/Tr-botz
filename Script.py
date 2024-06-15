@@ -8,7 +8,7 @@ class script(object):
     
     HELP_TXT = """<b>ʜᴇʏ {}\nʜᴇʀᴇ ᴍs ᴍʏ ʜᴇʟᴘ</b>"""
 
-    ABOUT_TXT = """<b>✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tr_ProAutoFilter_Bot>𝚃𝚁 𝙿𝚁𝙾 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃</a>
+    ABOUT_TXT = """<b>✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/AutoFilterbot_TGbot>🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
 ✯ ᴏᴡɴᴇʀ & ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Tr_LinksZz>Tʀ Mᴏᴠɪᴇs™</a>
@@ -33,7 +33,6 @@ class script(object):
 - ⚠️ 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖨𝗌 𝖭𝗈𝗍 𝖠𝗇 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍.!!!
 - 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖧𝖺𝗌 𝖫𝖺𝗍𝖾𝗌𝗍 𝖠𝗇𝖽 𝖠𝖽𝗏𝖺𝗇𝖼𝖾𝖽 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.
 - 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝖢𝗅𝗂𝖼𝗄 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 𝖡𝗎𝗍𝗍𝗈𝗇.
-
 𝗗𝗲𝘃𝘀 :
 ✯ <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>""""
     
