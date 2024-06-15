@@ -18,7 +18,7 @@ class script(object):
 ✯ ᴍʏ sᴇʀᴠᴇʀ : <a href=https://t.me/Tr_LinksZz>ǫᴜɪᴄᴋ ғᴀsᴛᴇʀ</a>
 ✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]</b>"""
    
-    SOURCE_TXT = """<b>Mʏ PᴏᴡᴇʀFᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛᴢ.
+    SOURCE_TXT = """<b>Mʏ PᴏᴡᴇʀFᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛᴢ :
     
 ✰ <a href=https://t.me/AutoFilterbot_TGbot>🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
   [ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ʙᴏᴛ ]
