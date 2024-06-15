@@ -20,13 +20,13 @@ class script(object):
    
     SOURCE_TXT = """<b>Mʏ PᴏᴡᴇʀFᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛᴢ.
     
-✰ <a href=https://t.me/AutoFilterbot_TGbot>🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
+✰ <a href="https://t.me/AutoFilterbot_TGbot">🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
   [ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ʙᴏᴛ ]
 
-✰ <a href=https://t.me/Tr_ProAutoFilter_Bot>🎥 𝚃𝚁 𝙼𝙾𝚅𝙸𝙴𝚂 𝙱𝙾𝚃 🦋</a>
+✰ <a href="https://t.me/Tr_ProAutoFilter_Bot">🎥 𝚃𝚁 𝙼𝙾𝚅𝙸𝙴𝚂 𝙱𝙾𝚃 🦋</a>
   [ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ʙᴏᴛ ]
     
-✰ <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
+✰ <a href="https://t.me/Tamizhan_movie_bot">🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
  [ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ʙᴏᴛ ]
 
 𝗡𝗼𝘁𝗲 :
@@ -34,7 +34,7 @@ class script(object):
 - 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖧𝖺𝗌 𝖫𝖺𝗍𝖾𝗌𝗍 𝖠𝗇𝖽 𝖠𝖽𝗏𝖺𝗇𝖼𝖾𝖽 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.
 - 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝖢𝗅𝗂𝖼𝗄 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 𝖡𝗎𝗍𝗍𝗈𝗇.
 𝗗𝗲𝘃𝘀 :
-✯ <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>""""
+✯ <a href="https://t.me/Tr_LinksZz_Admin_Chat_bot">👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>""""
     
     SUPRT_INFO_TXT = """<b>🌟𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖬𝗒 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 & 𝖦𝗋𝗈𝗎𝗉𝗌 𝖬𝗈𝖽𝗎𝗅𝖾.🌟
 🎟️ 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅.
