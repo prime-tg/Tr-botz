@@ -448,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Tr_LinksZz")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/Tr_Movies_Links")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", "help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", "about")
@@ -494,13 +494,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "suprt_info":
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
-             InlineKeyboardButton('♔︎ 𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ♔︎', url='https://t.me/Tr_LinksZz')
+             InlineKeyboardButton('♔︎ 𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ♔︎', url='https://t.me/Tr_Movies_Links'),
+             InlineKeyboardButton('😇 Backup 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 😇', url='https://t.me/Tr_LinksZz')
          ],[ 
              InlineKeyboardButton('𐂃 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/Discussion_tr_links'),
-             InlineKeyboardButton('𐂂 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾', url='https://t.me/Tamizhal_Movies_Factory') 
+             InlineKeyboardButton('𐂂 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾', url='https://t.me/Movies_Updatesz') 
          ],[ 
              InlineKeyboardButton('𓅓 𝖬𝗈𝗏𝗂𝖾𝗌 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/Tr_Movies_Group'), 
-             InlineKeyboardButton('🤖 𝖡𝗈𝗍 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Tr_LinksZz') 
+             InlineKeyboardButton('🤖 𝖡𝗈𝗍 𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Tr_Botz') 
          ],[ 
              InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', 'start')
          ]]
