@@ -101,7 +101,7 @@ async def next_page(bot, query):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'files#{nxreq}#{file.file_id}')] for file in files ]
 
     btn.insert(0, [InlineKeyboardButton(f"🎬 {search} 🎬", callback_data="🔍❤️")])
-    btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
+    btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_Movies_Links")])
     btn.insert(2, [
         InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
         InlineKeyboardButton('📟 ᴍᴏᴠɪᴇ', callback_data='movie'),
@@ -228,7 +228,7 @@ async def auto_filter(client, msg, spoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{req}#{file.file_id}')] for file in files ] 
 
     btn.insert(0, [InlineKeyboardButton(f"🎬 {search} 🎬", callback_data="🔍❤️")])
-    btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_LinksZz")])
+    btn.insert(1, [InlineKeyboardButton('🥰 ᴊᴏɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ 🥰', url="https://t.me/Tr_Movies_Links")])
     btn.insert(2, [
         InlineKeyboardButton('📮 ɪɴғᴏ', callback_data='info'),
         InlineKeyboardButton('📟 ᴍᴏᴠɪᴇ', callback_data='movie'),
