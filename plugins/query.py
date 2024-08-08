@@ -495,7 +495,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("❤️‍🔥 Tʀ Mᴏᴠɪᴇs Eɴᴛᴇʀᴛᴀɪɴᴇʀsɴ™ ❤️‍🔥")
         buttons = [[
              InlineKeyboardButton('♔︎ 𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ♔︎', url='https://t.me/Tr_Movies_Links'),
-             InlineKeyboardButton('😇 Backup 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 😇', url='https://t.me/Tr_LinksZz')
+             InlineKeyboardButton('😇 BᴀᴄᴋUᴘ Cʜᴀɴɴᴇʟ 😇', url='https://t.me/Tr_LinksZz')
          ],[ 
              InlineKeyboardButton('𐂃 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉', url='https://t.me/Discussion_tr_links'),
              InlineKeyboardButton('𐂂 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾', url='https://t.me/Movies_Updatesz') 
