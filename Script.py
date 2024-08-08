@@ -4,19 +4,24 @@ class script(object):
 😇 ᴍʏ ɴᴀᴍᴇ ɪs  {bot}.
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴇᴅ ᴍᴏᴠɪᴇs & ᴡᴇʙsᴇʀɪᴇs & ᴄᴀʀᴛᴏᴏɴᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... 🔥
 
-❤️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Tr_LinksZz ❤️</b>"""
+❤️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @Tr_Movies_Links ❤️</b>"""
     
     HELP_TXT = """<b>ʜᴇʏ {}\nʜᴇʀᴇ ᴍs ᴍʏ ʜᴇʟᴘ</b>"""
 
     ABOUT_TXT = """<b>✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/AutoFilterbot_TGbot>🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
-✯ ᴏᴡɴᴇʀ & ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ ᴏᴡɴᴇʀ & ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
-✯ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Tr_LinksZz>Tʀ Mᴏᴠɪᴇs™</a>
+✯ ʙᴏᴛ ᴍᴀɪɴᴛᴀɪɴs ʙʏ : <a href=Tr_Movies_Links>Tʀ Mᴏᴠɪᴇs™</a>
+✯ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Tr_Botz>Tr Botz</a>
 ✯ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴘʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/download/releases/3.0/>ᴘʏᴛʜᴏɴ 3</a>
 ✯ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://www.mongodb.com/>ᴍᴏɴɢᴏ ᴅʙ</a>
-✯ ᴍʏ sᴇʀᴠᴇʀ : <a href=https://t.me/Tr_LinksZz>ǫᴜɪᴄᴋ ғᴀsᴛᴇʀ</a>
-✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]</b>"""
+✯ ᴍʏ sᴇʀᴠᴇʀ : <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
+✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]
+
+❤️‍🔥 Mʏ Mᴀɪɴ Cʜᴀɴɴᴇʟ Aɴɴɪᴠᴇʀsᴀʀɪᴇs : 27.08.2022 ❤️‍🔥
+
+🤖  Mʏ Cʀᴇᴀᴛᴇᴅ Dᴀᴛᴇ : 06.06.2024 🤖</b>"""
    
     SOURCE_TXT = """<b>Mʏ PᴏᴡᴇʀFᴜʟ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛᴢ :
     
@@ -47,7 +52,7 @@ class script(object):
     CREDITS_TXT = """<b>❉ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 ❉ :
 ➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/mkn_bots_updates>Mᴋɴ Bᴏᴛs™</a> 
 ➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/Mr_MKN>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
-➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a> 
+➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a> 
 ➳ Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a> 
 ➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/mallufiles><b>𝖬𝖺𝗅𝗅𝗎𝖥𝗂𝗅𝖾𝗌™</b></a> 
  
@@ -83,7 +88,7 @@ class script(object):
  
 🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ ☞ <a href=tg://settings>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 🦋 
  
-❤️ Powered By : @Tr_LinksZz ❤️</b>"""
+❤️ Powered By : @Tr_Movies_Links ❤️</b>"""
 
     DELF_TXT = """<b>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
@@ -297,7 +302,7 @@ Fʀᴇᴇ Dɪꜱᴋ: {}</b>"""
 ☀️ ʟᴀɴɢᴜᴀɢᴇs : <code>{languages}</code>
 📀 ʀᴜɴᴛɪᴍᴇ : {runtime} ᴍɪɴᴜᴛᴇs
 📆 ʀᴇʟᴇᴀsᴇᴅ ɪɴғᴏ : {release_date}
-📥 ᴜᴘʟᴏᴀᴅɪɴɢ : @Tr_LinksZz
+📥 ᴜᴘʟᴏᴀᴅɪɴɢ : @Tr_Movies_Links
 🗣️ ᴅɪsᴄᴜssɪᴏɴ : @Discussion_tr_links
 
 🍀 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ 🍀 : {message.from_user.mention}
