@@ -11,7 +11,7 @@ class script(object):
     ABOUT_TXT = """<b>✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/AutoFilterbot_TGbot>🍿 TG Pʀɪᴍᴇ AᴜᴛᴏFɪʟᴛᴇʀ Bᴏᴛ 🍿</a>
 ✯ ᴏᴡɴᴇʀ & ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
-✯ ʙᴏᴛ ᴍᴀɪɴᴛᴀɪɴs ʙʏ : <a href=Tr_Movies_Links>Tʀ Mᴏᴠɪᴇs™</a>
+✯ ʙᴏᴛ ᴍᴀɪɴᴛᴀɪɴs ʙʏ : <a href=https://t.me/Tr_Movies_Links>Tʀ Mᴏᴠɪᴇs™</a>
 ✯ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Tr_Botz>Tr Botz</a>
 ✯ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴘʀᴏɢʀᴀᴍ</a>
 ✯ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/download/releases/3.0/>ᴘʏᴛʜᴏɴ 3</a>
@@ -19,7 +19,7 @@ class script(object):
 ✯ ᴍʏ sᴇʀᴠᴇʀ : <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
 ✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅4.5.0 [ sᴛᴀʙʟᴇ ]
 
-❤️‍🔥 Mʏ Mᴀɪɴ Cʜᴀɴɴᴇʟ Aɴɴɪᴠᴇʀsᴀʀɪᴇs : 27.08.2022 ❤️‍🔥
+❤️‍🔥 Mᴀɪɴ Cʜᴀɴɴᴇʟ Aɴɴɪᴠᴇʀsᴀʀɪᴇs : 27.08.2022 ❤️‍🔥
 
 🤖  Mʏ Cʀᴇᴀᴛᴇᴅ Dᴀᴛᴇ : 06.06.2024 🤖</b>"""
    
@@ -40,7 +40,7 @@ class script(object):
 - 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝖢𝗅𝗂𝖼𝗄 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 𝖡𝗎𝗍𝗍𝗈𝗇.
 
 𝗗𝗲𝘃𝘀 :
-✯ <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>"""
+✯ <a href=https://t.me/Tr_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>"""
     
     SUPRT_INFO_TXT = """<b>🌟𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖬𝗒 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 & 𝖦𝗋𝗈𝗎𝗉𝗌 𝖬𝗈𝖽𝗎𝗅𝖾.🌟
 🎟️ 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅.
